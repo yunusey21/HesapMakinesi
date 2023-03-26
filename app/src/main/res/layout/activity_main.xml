@@ -10,36 +10,37 @@
         android:id="@+id/clear"
         android:layout_width="101dp"
         android:layout_height="85dp"
+        android:layout_marginBottom="4dp"
+
         android:layout_weight="1"
         android:backgroundTint="@color/design_default_color_secondary_variant"
         android:text="C"
         android:textColor="@color/white"
         android:textSize="30dp"
         app:cornerRadius="90dp"
-        app:stokeWidth="5dp"
-        app:strokeColor="@color/black"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="305dp"
-
-         />
+        app:layout_constraintBottom_toTopOf="@+id/yedi"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:strokeColor="@color/black" />
 
     <Button
 
+        android:id="@+id/button3"
         android:layout_width="101dp"
         android:layout_height="85dp"
+        android:layout_marginEnd="5dp"
         android:layout_weight="1"
         android:backgroundTint="@color/material_dynamic_neutral95"
         android:text="()"
         android:textColor="@color/material_dynamic_neutral_variant40"
         android:textSize="30dp"
         app:cornerRadius="90dp"
-        app:stokeWidth="2dp"
-        app:strokeColor="@color/black"
-        tools:layout_editor_absoluteX="104dp"
-        tools:layout_editor_absoluteY="305dp" />
+        app:layout_constraintBottom_toTopOf="@+id/eight"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:strokeColor="@color/black" />
 
     <Button
 
+        android:id="@+id/button2"
         android:layout_width="101dp"
         android:layout_height="85dp"
         android:layout_weight="1"
@@ -48,10 +49,9 @@
         android:textColor="@color/black"
         android:textSize="30dp"
         app:cornerRadius="90dp"
-        app:stokeWidth="2dp"
-        app:strokeColor="@color/black"
-        tools:layout_editor_absoluteX="205dp"
-        tools:layout_editor_absoluteY="305dp" />
+        app:layout_constraintBottom_toTopOf="@+id/nine"
+        app:layout_constraintEnd_toStartOf="@+id/bolme"
+        app:strokeColor="@color/black" />
 
     <Button
 
@@ -64,15 +64,15 @@
         android:textColor="@color/black"
         android:textSize="30dp"
         app:cornerRadius="90dp"
-        app:stokeWidth="2dp"
-        app:strokeColor="@color/black"
-        tools:layout_editor_absoluteX="306dp"
-        tools:layout_editor_absoluteY="305dp" />
+        app:layout_constraintBottom_toTopOf="@+id/carpma"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:strokeColor="@color/black" />
 
     <Button
         android:id="@+id/yedi"
         android:layout_width="101dp"
         android:layout_height="85dp"
+        android:layout_marginEnd="5dp"
         android:layout_weight="1"
         android:backgroundTint="@color/material_dynamic_neutral95"
         android:rotationX="4"
@@ -80,74 +80,74 @@
         android:textColor="@color/black"
         android:textSize="30dp"
         app:cornerRadius="90dp"
+        app:layout_constraintBottom_toTopOf="@+id/four"
+        app:layout_constraintEnd_toStartOf="@+id/eight"
         app:rippleColor="#00FFFFFF"
-        app:stokeWidth="5dp"
-        app:strokeColor="@color/black"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="390dp" />
+        app:strokeColor="@color/black" />
 
     <Button
 
         android:id="@+id/eight"
         android:layout_width="101dp"
         android:layout_height="85dp"
+        android:layout_marginBottom="4dp"
         android:layout_weight="1"
         android:backgroundTint="@color/material_dynamic_neutral95"
         android:text="8"
         android:textColor="@color/black"
         android:textSize="30dp"
         app:cornerRadius="90dp"
-        app:stokeWidth="2dp"
-        app:strokeColor="@color/black"
-        tools:layout_editor_absoluteX="104dp"
-        tools:layout_editor_absoluteY="390dp" />
+        app:layout_constraintBottom_toTopOf="@+id/five"
+        app:layout_constraintEnd_toStartOf="@+id/nine"
+        app:strokeColor="@color/black" />
 
     <Button
 
         android:id="@+id/nine"
         android:layout_width="101dp"
         android:layout_height="85dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
         android:layout_weight="1"
         android:backgroundTint="@color/material_dynamic_neutral95"
         android:text="9"
         android:textColor="@color/black"
         android:textSize="30dp"
         app:cornerRadius="90dp"
-        app:stokeWidth="2dp"
-        app:strokeColor="@color/black"
-        tools:layout_editor_absoluteX="205dp"
-        tools:layout_editor_absoluteY="390dp" />
+        app:layout_constraintBottom_toTopOf="@+id/six"
+        app:layout_constraintEnd_toStartOf="@+id/carpma"
+        app:strokeColor="@color/black" />
 
     <Button
 
         android:id="@+id/carpma"
         android:layout_width="101dp"
         android:layout_height="85dp"
+        android:layout_marginBottom="4dp"
         android:layout_weight="1"
         android:backgroundTint="@color/material_dynamic_neutral95"
         android:text="x"
         android:textColor="@color/black"
         android:textSize="20dp"
         app:cornerRadius="90dp"
-        app:stokeWidth="2dp"
-        app:strokeColor="@color/black"
-        tools:layout_editor_absoluteX="306dp"
-        tools:layout_editor_absoluteY="390dp" />
+        app:layout_constraintBottom_toTopOf="@+id/cıkarma"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:strokeColor="@color/black" />
 
     <Button
         android:id="@+id/four"
         android:layout_width="101dp"
         android:layout_height="85dp"
+        android:layout_marginEnd="3dp"
         android:layout_weight="1"
         android:backgroundTint="@color/material_dynamic_neutral95"
         android:text="4"
         android:textColor="@color/black"
         android:textSize="30dp"
         app:cornerRadius="90dp"
-        app:stokeWidth="5dp"
-        app:strokeColor="@color/black"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="475dp" />
+        app:layout_constraintBottom_toTopOf="@+id/one"
+        app:layout_constraintEnd_toStartOf="@+id/five"
+        app:strokeColor="@color/black" />
 
     <Button
 
@@ -160,10 +160,9 @@
         android:textColor="@color/black"
         android:textSize="30dp"
         app:cornerRadius="90dp"
-        app:stokeWidth="2dp"
-        app:strokeColor="@color/black"
-        tools:layout_editor_absoluteX="104dp"
-        tools:layout_editor_absoluteY="475dp" />
+        app:layout_constraintBottom_toTopOf="@+id/two"
+        app:layout_constraintEnd_toStartOf="@+id/six"
+        app:strokeColor="@color/black" />
 
     <Button
 
@@ -176,41 +175,41 @@
         android:textColor="@color/black"
         android:textSize="30dp"
         app:cornerRadius="90dp"
-        app:stokeWidth="2dp"
-        app:strokeColor="@color/black"
-        tools:layout_editor_absoluteX="205dp"
-        tools:layout_editor_absoluteY="475dp" />
+        app:layout_constraintBottom_toTopOf="@+id/three"
+        app:layout_constraintEnd_toStartOf="@+id/cıkarma"
+        app:strokeColor="@color/black" />
 
     <Button
 
         android:id="@+id/cıkarma"
         android:layout_width="101dp"
         android:layout_height="85dp"
+        android:layout_marginEnd="4dp"
         android:layout_weight="1"
         android:backgroundTint="@color/material_dynamic_neutral95"
         android:text="-"
         android:textColor="@color/black"
         android:textSize="30dp"
         app:cornerRadius="90dp"
-        app:stokeWidth="2dp"
-        app:strokeColor="@color/black"
-        tools:layout_editor_absoluteX="306dp"
-        tools:layout_editor_absoluteY="475dp" />
+        app:layout_constraintBottom_toTopOf="@+id/toplama"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:strokeColor="@color/black" />
 
     <Button
         android:id="@+id/one"
         android:layout_width="101dp"
         android:layout_height="85dp"
+        android:layout_marginEnd="3dp"
         android:layout_weight="1"
         android:backgroundTint="@color/material_dynamic_neutral95"
         android:text="1"
         android:textColor="@color/black"
         android:textSize="30dp"
         app:cornerRadius="90dp"
-        app:stokeWidth="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/nokta"
+        app:layout_constraintEnd_toStartOf="@+id/two"
         app:strokeColor="@color/black"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="560dp" />
+        />
 
     <Button
 
@@ -223,10 +222,10 @@
         android:textColor="@color/black"
         android:textSize="30dp"
         app:cornerRadius="90dp"
-        app:stokeWidth="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/zero"
+        app:layout_constraintEnd_toStartOf="@+id/three"
         app:strokeColor="@color/black"
-        tools:layout_editor_absoluteX="104dp"
-        tools:layout_editor_absoluteY="560dp" />
+        />
 
     <Button
 
@@ -239,88 +238,93 @@
         android:textColor="@color/black"
         android:textSize="30dp"
         app:cornerRadius="90dp"
-        app:stokeWidth="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toStartOf="@+id/toplama"
         app:strokeColor="@color/black"
-        tools:layout_editor_absoluteX="205dp"
-        tools:layout_editor_absoluteY="560dp" />
+        />
 
     <Button
 
         android:id="@+id/toplama"
         android:layout_width="101dp"
         android:layout_height="85dp"
+        android:layout_marginEnd="4dp"
         android:layout_weight="1"
         android:backgroundTint="@color/material_dynamic_neutral95"
         android:text="+"
         android:textColor="@color/black"
         android:textSize="30dp"
         app:cornerRadius="90dp"
-        app:stokeWidth="2dp"
-        app:strokeColor="@color/black"
-        tools:layout_editor_absoluteX="306dp"
-        tools:layout_editor_absoluteY="560dp" />
+        app:layout_constraintBottom_toTopOf="@+id/esittir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:strokeColor="@color/black" />
 
     <Button
         android:id="@+id/nokta"
         android:layout_width="95dp"
         android:layout_height="85dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="1dp"
         android:layout_weight="1"
         android:backgroundTint="@color/material_dynamic_neutral95"
         android:text="."
         android:textColor="@color/black"
         android:textSize="30dp"
         app:cornerRadius="90dp"
-        app:stokeWidth="5dp"
-        app:strokeColor="@color/black"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="645dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/zero"
+        app:strokeColor="@color/black" />
 
     <Button
 
         android:id="@+id/zero"
         android:layout_width="95dp"
         android:layout_height="85dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="1dp"
         android:layout_weight="1"
         android:backgroundTint="@color/material_dynamic_neutral95"
         android:text="0"
         android:textColor="@color/material_dynamic_neutral_variant40"
         android:textSize="30dp"
         app:cornerRadius="90dp"
-        app:stokeWidth="2dp"
-        app:strokeColor="@color/black"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="645dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:strokeColor="@color/black" />
 
     <Button
 
+        android:id="@+id/button4"
         android:layout_width="95dp"
         android:layout_height="85dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="1dp"
         android:layout_weight="1"
         android:backgroundTint="@color/material_dynamic_neutral95"
         android:text="^"
         android:textColor="@color/black"
         android:textSize="30dp"
         app:cornerRadius="90dp"
-        app:stokeWidth="2dp"
-        app:strokeColor="@color/black"
-        tools:layout_editor_absoluteX="199dp"
-        tools:layout_editor_absoluteY="645dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/esittir"
+        app:strokeColor="@color/black" />
 
     <Button
 
         android:id="@+id/esittir"
         android:layout_width="95dp"
         android:layout_height="85dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="1dp"
         android:layout_weight="1"
         android:backgroundTint="@color/material_dynamic_neutral95"
         android:text="="
         android:textColor="@color/black"
         android:textSize="30dp"
         app:cornerRadius="90dp"
-        app:stokeWidth="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:strokeColor="@color/black"
-        tools:layout_editor_absoluteX="300dp"
-        tools:layout_editor_absoluteY="645dp"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -338,7 +342,7 @@
         android:paddingRight="10dp"
         android:paddingBottom="10dp"
         android:text="0"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/black"
         android:textColorHint="#FFFFFF"
         android:textSize="75sp"
         android:verticalScrollbarPosition="right"

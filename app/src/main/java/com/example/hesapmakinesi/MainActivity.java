@@ -3,6 +3,10 @@ package com.example.hesapmakinesi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     Button
@@ -42,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         four = findViewById(R.id.four);
         five = findViewById(R.id.five);
         six = findViewById(R.id.six);
-        seven = findViewById(R.id.seven);
+        yedi = findViewById(R.id.yedi);
         eight = findViewById(R.id.eight);
         nine = findViewById(R.id.nine);
         toplama = findViewById(R.id.toplama);
@@ -55,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
         hesapEkrani = findViewById(R.id.hesapEkrani);
 
-        hesapEkrani.setText("0");
+        hesapEkrani.setText("12");
         ilkSayi = 0.0;
         virgulDurum = false;
         islemDurum = "0";
@@ -145,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
                 TIKLA_NUMARA(6);
             }
         });
-        seven.setOnClickListener(new View.OnClickListener() {
+        yedi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 TIKLA_NUMARA(7);
