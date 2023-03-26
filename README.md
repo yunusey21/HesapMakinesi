@@ -1,2 +1,2 @@
 # HesapMakinesi
-https://youtu.be/jyrURipfab8 vidosu
+https://youtu.be/5_8tTUu0Phw videosu
